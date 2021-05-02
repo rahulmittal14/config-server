@@ -6,14 +6,3 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
-
-datasource:
-    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://localhost:1501;databasename=userservice
-    username: sa
-    password: Admin123
-  jpa:
-    hibernate-ddl-auto: update
-    hibernate.dialect: org.hibernate.dialect.SQLServer2012Dialect
-    generate-ddl: true
-    show-sql: true
