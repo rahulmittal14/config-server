@@ -7,8 +7,7 @@ eureka:
   instance:
     hostname: localhost
 
-spring:
-  datasource:
+datasource:
     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
     url: jdbc:sqlserver://localhost:1501;databasename=userservice
     username: sa
